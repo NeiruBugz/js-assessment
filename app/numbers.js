@@ -14,6 +14,6 @@ exports.numbersAnswers = {
   },
 
   multiply: function(a, b) {
-
+    return Math.floor(Math.round(a * b)).toPrecision(2);
   }
 };
